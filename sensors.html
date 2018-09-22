@@ -69,8 +69,8 @@
 </ul></li>
 <li class="chapter" data-level="2" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>2</b> Getting Started</a><ul>
 <li class="chapter" data-level="2.1" data-path="connecting-to-snap.html"><a href="connecting-to-snap.html"><i class="fa fa-check"></i><b>2.1</b> Connecting To Snap</a></li>
-<li class="chapter" data-level="2.2" data-path="blink-an-led.html"><a href="blink-an-led.html"><i class="fa fa-check"></i><b>2.2</b> Blink An LED</a></li>
-<li class="chapter" data-level="2.3" data-path="using-snap.html"><a href="using-snap.html"><i class="fa fa-check"></i><b>2.3</b> Using Snap!</a></li>
+<li class="chapter" data-level="2.2" data-path="using-snap.html"><a href="using-snap.html"><i class="fa fa-check"></i><b>2.2</b> Using Snap!</a></li>
+<li class="chapter" data-level="2.3" data-path="blink-an-led.html"><a href="blink-an-led.html"><i class="fa fa-check"></i><b>2.3</b> Blink An LED</a></li>
 <li class="chapter" data-level="2.4" data-path="troubleshooting-connection.html"><a href="troubleshooting-connection.html"><i class="fa fa-check"></i><b>2.4</b> Troubleshooting Connection</a></li>
 <li class="chapter" data-level="2.5" data-path="downloads.html"><a href="downloads.html"><i class="fa fa-check"></i><b>2.5</b> Downloads</a></li>
 </ul></li>
@@ -89,7 +89,19 @@
 <li class="chapter" data-level="5" data-path="getting-fancy.html"><a href="getting-fancy.html"><i class="fa fa-check"></i><b>5</b> Getting Fancy</a><ul>
 <li class="chapter" data-level="5.1" data-path="analog-input.html"><a href="analog-input.html"><i class="fa fa-check"></i><b>5.1</b> Analog Input</a></li>
 <li class="chapter" data-level="5.2" data-path="pulse-width-modulation.html"><a href="pulse-width-modulation.html"><i class="fa fa-check"></i><b>5.2</b> Pulse Width Modulation</a></li>
-<li class="chapter" data-level="5.3" data-path="sensors.html"><a href="sensors.html"><i class="fa fa-check"></i><b>5.3</b> Sensors</a></li>
+<li class="chapter" data-level="5.3" data-path="sensors.html"><a href="sensors.html"><i class="fa fa-check"></i><b>5.3</b> Sensors</a><ul>
+<li class="chapter" data-level="5.3.1" data-path="sensors.html"><a href="sensors.html#light-sensor"><i class="fa fa-check"></i><b>5.3.1</b> Light Sensor</a></li>
+<li class="chapter" data-level="5.3.2" data-path="sensors.html"><a href="sensors.html#breadboard-wiring"><i class="fa fa-check"></i><b>5.3.2</b> Breadboard &amp; Wiring</a></li>
+<li class="chapter" data-level="5.3.3" data-path="sensors.html"><a href="sensors.html#potentiometer"><i class="fa fa-check"></i><b>5.3.3</b> Potentiometer</a></li>
+<li class="chapter" data-level="5.3.4" data-path="sensors.html"><a href="sensors.html#ultrasonic-distance"><i class="fa fa-check"></i><b>5.3.4</b> Ultrasonic distance</a></li>
+<li class="chapter" data-level="5.3.5" data-path="sensors.html"><a href="sensors.html#endstop-switch"><i class="fa fa-check"></i><b>5.3.5</b> Endstop Switch</a></li>
+<li class="chapter" data-level="5.3.6" data-path="sensors.html"><a href="sensors.html#force-sensitive-resistor"><i class="fa fa-check"></i><b>5.3.6</b> Force Sensitive Resistor</a></li>
+<li class="chapter" data-level="5.3.7" data-path="sensors.html"><a href="sensors.html#soil-humidity"><i class="fa fa-check"></i><b>5.3.7</b> Soil Humidity</a></li>
+<li class="chapter" data-level="5.3.8" data-path="sensors.html"><a href="sensors.html#temphumidity"><i class="fa fa-check"></i><b>5.3.8</b> Temp/Humidity</a></li>
+<li class="chapter" data-level="5.3.9" data-path="sensors.html"><a href="sensors.html#relay"><i class="fa fa-check"></i><b>5.3.9</b> Relay</a></li>
+<li class="chapter" data-level="5.3.10" data-path="sensors.html"><a href="sensors.html#microphone"><i class="fa fa-check"></i><b>5.3.10</b> Microphone</a></li>
+<li class="chapter" data-level="5.3.11" data-path="sensors.html"><a href="sensors.html#piezo-vibration"><i class="fa fa-check"></i><b>5.3.11</b> Piezo Vibration</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="resources.html"><a href="resources.html"><i class="fa fa-check"></i><b>6</b> Resources</a><ul>
 <li class="chapter" data-level="6.1" data-path="sensor-library-component-dictionary.html"><a href="sensor-library-component-dictionary.html"><i class="fa fa-check"></i><b>6.1</b> Sensor Library &amp; Component Dictionary</a></li>
@@ -119,6 +131,78 @@
 <div class="figure">
 <img src="img/photos/sensors.png" alt="A few sensors for the Robot In A Can Kit" />
 <p class="caption">A few sensors for the Robot In A Can Kit</p>
+</div>
+<div id="light-sensor" class="section level3">
+<h3><span class="header-section-number">5.3.1</span> Light Sensor</h3>
+<p>Let’s look at how the light sensors measures the amount of light as an analog signal and how the computer can turn that into a number it understands.</p>
+<p>Photo: <img src="img/photos/cds.png" /></p>
+<p>Diagram: LS wiring of Evelab 1.5</p>
+<p>Screenshot: Snap code for listening to a light sensor and displaying its value on the screen 10 times / second. <img src="img/screenshots/LightNumbers.png" /></p>
+<p>Graphing: <img src="img/screenshots/LightGraph.png" /></p>
+</div>
+<div id="breadboard-wiring" class="section level3">
+<h3><span class="header-section-number">5.3.2</span> Breadboard &amp; Wiring</h3>
+<p>A Breadboard is used to connect circuits and components easily. This Breadboard is made up of 5 clips made of conductive metal. The clips are connected horizontally across and each rail can be used to connect a unique circuit.</p>
+<p>Image Breadboard</p>
+<p>Image Breadboard with component and individual connections</p>
+<p>Image Breadboard connection error</p>
+<p>Use patch wires to attach components to the EveBrain</p>
+</div>
+<div id="potentiometer" class="section level3">
+<h3><span class="header-section-number">5.3.3</span> Potentiometer</h3>
+<p>Let’s wire up an external analog component. The potentiometer. This is a variable resistor that can change how much it stops a current running through it. Look at its values moving. You might find this part as a volume switch on a car stereo.</p>
+<p>Photo: Potentiometer wiring on Evelab 1.5</p>
+<p>Diagram: Potentiometer wiring on Evelab 1.5</p>
+<p>Screenshot: Snap code for moving a sprite on the screen using a potentiometer. <img src="img/screenshots/Potentiometer.png" /></p>
+</div>
+<div id="ultrasonic-distance" class="section level3">
+<h3><span class="header-section-number">5.3.4</span> Ultrasonic distance</h3>
+<p>Photo: <img src="img/photos/ultrasonic.jpg" /></p>
+<p>Diagram:</p>
+<p>Screenshot: <img src="img/screenshots/DistanceSensor.png" /></p>
+</div>
+<div id="endstop-switch" class="section level3">
+<h3><span class="header-section-number">5.3.5</span> Endstop Switch</h3>
+<p>Photo: <img src="img/photos/endstopSwitch.jpg" /></p>
+<p>Diagram: <img src="img/screenshots/EndStopSwitch.png" /></p>
+<p>Screenshot:</p>
+</div>
+<div id="force-sensitive-resistor" class="section level3">
+<h3><span class="header-section-number">5.3.6</span> Force Sensitive Resistor</h3>
+<p>Photo: <img src="img/photos/fsr.jpg" /></p>
+<p>Diagram: <img src="img/screenshots/LightGraph.png" /></p>
+</div>
+<div id="soil-humidity" class="section level3">
+<h3><span class="header-section-number">5.3.7</span> Soil Humidity</h3>
+<p>Photo: <img src="img/photos/soilhum.jpg" /></p>
+<p>Diagram:</p>
+<p>Screenshot: <img src="img/screenshots/LightGraph.png" /></p>
+</div>
+<div id="temphumidity" class="section level3">
+<h3><span class="header-section-number">5.3.8</span> Temp/Humidity</h3>
+<p>Photo: <img src="img/photos/DHT11.jpg" /></p>
+<p>Diagram:</p>
+<p>Screenshot: <img src="img/screenshots/TempHumidity.png" /></p>
+</div>
+<div id="relay" class="section level3">
+<h3><span class="header-section-number">5.3.9</span> Relay</h3>
+<p>Photo: <img src="img/photos/relay.jpg" /></p>
+<p>Diagram:</p>
+<p>Screenshot: <img src="img/screenshots/Relay.png" /></p>
+</div>
+<div id="microphone" class="section level3">
+<h3><span class="header-section-number">5.3.10</span> Microphone</h3>
+<p>This is a microphone! It can give your projects the ability to listen for sounds! Like an ear, but for robots, this sensor changes waves of sound travelling in the air into electrical pulses that the computer can listen to.</p>
+<p>Photo: <img src="img/photos/microphone.jpg" /></p>
+<p>Diagram:</p>
+<p>Screenshot: <img src="img/screenshots/AmplifyMicPiezo.png" /></p>
+</div>
+<div id="piezo-vibration" class="section level3">
+<h3><span class="header-section-number">5.3.11</span> Piezo Vibration</h3>
+<p>A Piezo sensor is one of the most fascinating sensors. It has a small piece of quartz crystal inside, when the crystal is deformed it generates electricity. The phenomenon was observed in ancient greece! When the crystal vibrates it produces electricity, so this is a vibration sensor.</p>
+<p>Photo: <img src="img/photos/piezo.jpg" /></p>
+<p>Diagram:</p>
+<p>Screenshot: <img src="img/screenshots/AmplifyMicPiezo.png" /></p>
 </div>
 </div>
 <!-- </div> -->

@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="blink-rgb.html">
-<link rel="next" href="gpio-the-cpu.html">
+<link rel="prev" href="pulse-width-modulation.html">
+<link rel="next" href="resources.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -126,25 +126,173 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="button-input" class="section level2">
-<h2><span class="header-section-number">4.3</span> Button Input</h2>
-<center>
-<video width="100%" controls>
-<source src="video/ButtonInput.mp4" type="video/mp4">
-</video>
-</center>
+<div id="sensors-and-extras" class="section level2">
+<h2><span class="header-section-number">5.3</span> Sensors and Extras</h2>
 <div class="figure">
-<img src="img/screenshots/ButtonInput.png" />
+<img src="img/photos/sensors.png" alt="A few sensors for the Robot In A Can Kit" />
+<p class="caption">A few sensors for the Robot In A Can Kit</p>
+</div>
+<div id="light-sensor" class="section level3">
+<h3><span class="header-section-number">5.3.1</span> Light Sensor</h3>
+<p>Let’s look at how the light sensors measures the amount of light as an analog signal and how the computer can turn that into a number it understands.</p>
+<p>Photo:</p>
+<div class="figure">
+<img src="img/photos/cds.png" />
+
+</div>
+<p>Diagram: LS wiring of Evelab 1.5</p>
+<p>Screenshot: Snap code for listening to a light sensor and displaying its value on the screen 10 times / second.</p>
+<div class="figure">
+<img src="img/screenshots/LightNumbers.png" />
+
+</div>
+<p>Graphing:</p>
+<div class="figure">
+<img src="img/screenshots/LightGraph.png" />
 
 </div>
 </div>
+<div id="breadboard-wiring" class="section level3">
+<h3><span class="header-section-number">5.3.2</span> Breadboard &amp; Wiring</h3>
+<p>A Breadboard is used to connect circuits and components easily. This Breadboard is made up of 5 clips made of conductive metal. The clips are connected horizontally across and each rail can be used to connect a unique circuit.</p>
+<p>Image Breadboard</p>
+<p>Image Breadboard with component and individual connections</p>
+<p>Image Breadboard connection error</p>
+<p>Use patch wires to attach components to the EveBrain</p>
+</div>
+<div id="potentiometer" class="section level3">
+<h3><span class="header-section-number">5.3.3</span> Potentiometer</h3>
+<p>Let’s wire up an external analog component. The potentiometer. This is a variable resistor that can change how much it stops a current running through it. Look at its values moving. You might find this part as a volume switch on a car stereo.</p>
+<p>Photo: Potentiometer wiring on Evelab 1.5</p>
+<p>Diagram: Potentiometer wiring on Evelab 1.5</p>
+<p>Screenshot: Snap code for moving a sprite on the screen using a potentiometer.</p>
+<div class="figure">
+<img src="img/screenshots/Potentiometer.png" />
+
+</div>
+</div>
+<div id="ultrasonic-distance" class="section level3">
+<h3><span class="header-section-number">5.3.4</span> Ultrasonic distance</h3>
+<p>Photo:</p>
+<div class="figure">
+<img src="img/photos/ultrasonic.jpg" />
+
+</div>
+<p>Diagram:</p>
+<p>Screenshot:</p>
+<div class="figure">
+<img src="img/screenshots/DistanceSensor.png" />
+
+</div>
+</div>
+<div id="endstop-switch" class="section level3">
+<h3><span class="header-section-number">5.3.5</span> Endstop Switch</h3>
+<p>Photo:</p>
+<div class="figure">
+<img src="img/photos/endstopSwitch.jpg" />
+
+</div>
+<p>Diagram:</p>
+<div class="figure">
+<img src="img/screenshots/EndStopSwitch.png" />
+
+</div>
+<p>Screenshot:</p>
+</div>
+<div id="force-sensitive-resistor" class="section level3">
+<h3><span class="header-section-number">5.3.6</span> Force Sensitive Resistor</h3>
+<p>Photo:</p>
+<div class="figure">
+<img src="img/photos/fsr.jpg" />
+
+</div>
+<p>Diagram:</p>
+<div class="figure">
+<img src="img/screenshots/LightGraph.png" />
+
+</div>
+</div>
+<div id="soil-humidity" class="section level3">
+<h3><span class="header-section-number">5.3.7</span> Soil Humidity</h3>
+<p>Photo:</p>
+<div class="figure">
+<img src="img/photos/soilhum.jpg" />
+
+</div>
+<p>Diagram:</p>
+<p>Screenshot:</p>
+<div class="figure">
+<img src="img/screenshots/LightGraph.png" />
+
+</div>
+</div>
+<div id="temphumidity" class="section level3">
+<h3><span class="header-section-number">5.3.8</span> Temp/Humidity</h3>
+<p>Photo:</p>
+<div class="figure">
+<img src="img/photos/DHT11.jpg" />
+
+</div>
+<p>Diagram:</p>
+<p>Screenshot:</p>
+<div class="figure">
+<img src="img/screenshots/TempHumidity.png" />
+
+</div>
+</div>
+<div id="relay" class="section level3">
+<h3><span class="header-section-number">5.3.9</span> Relay</h3>
+<p>Photo:</p>
+<div class="figure">
+<img src="img/photos/relay.jpg" />
+
+</div>
+<p>Diagram:</p>
+<p>Screenshot:</p>
+<div class="figure">
+<img src="img/screenshots/Relay.png" />
+
+</div>
+</div>
+<div id="microphone" class="section level3">
+<h3><span class="header-section-number">5.3.10</span> Microphone</h3>
+<p>This is a microphone! It can give your projects the ability to listen for sounds! Like an ear, but for robots, this sensor changes waves of sound travelling in the air into electrical pulses that the computer can listen to.</p>
+<p>Photo:</p>
+<div class="figure">
+<img src="img/photos/microphone.jpg" />
+
+</div>
+<p>Diagram:</p>
+<p>Screenshot:</p>
+<div class="figure">
+<img src="img/screenshots/AmplifyMicPiezo.png" />
+
+</div>
+</div>
+<div id="piezo-vibration" class="section level3">
+<h3><span class="header-section-number">5.3.11</span> Piezo Vibration</h3>
+<p>A Piezo sensor is one of the most fascinating sensors. It has a small piece of quartz crystal inside, when the crystal is deformed it generates electricity. The phenomenon was observed in ancient greece! When the crystal vibrates it produces electricity, so this is a vibration sensor.</p>
+<p>Photo:</p>
+<div class="figure">
+<img src="img/photos/piezo.jpg" />
+
+</div>
+<p>Diagram:</p>
+<p>Screenshot:</p>
+<div class="figure">
+<img src="img/screenshots/AmplifyMicPiezo.png" />
+
+</div>
+</div>
+</div>
+<!-- </div> -->
             </section>
 
           </div>
         </div>
       </div>
-<a href="blink-rgb.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="gpio-the-cpu.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="pulse-width-modulation.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="resources.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
