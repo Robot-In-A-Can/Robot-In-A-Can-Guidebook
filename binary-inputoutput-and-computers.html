@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="light-sensor.html">
-<link rel="next" href="breadboard-wiring.html">
+<link rel="prev" href="circuits.html">
+<link rel="next" href="blink-an-led.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -127,16 +127,34 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="pulse-width-modulation" class="section level2">
-<h2><span class="header-section-number">5.4</span> Pulse Width Modulation</h2>
+<div id="binary-inputoutput-and-computers" class="section level2">
+<h2><span class="header-section-number">4.2</span> Binary Input/Output and Computers</h2>
+<center>
+<div class="figure">
+<img src="img/diagrams/inputoutput.png" alt="Input -&gt; Processing -&gt; Output." />
+<p class="caption">Input -&gt; Processing -&gt; Output.</p>
+</div>
+</center>
+<p>Computers are very complex systems with lots of inputs and outputs. Computers can only use input or send output in the form of binary. 1 or 0. That’s it.</p>
+<p>But by sending lots of 1’s and 0’s very quickly they can do very complex things, like showing a youtube video on your screen. That is all done with 1’s and 0’s moving very fast inside the processor and it ends up as video on your screen!</p>
+<p>Computer processors have what are called GPIO pins, or General Purpose Input Output pins. This lets them send (output), and listen (input), to electronic signals. Let’s look at the electronics of a Binary Signal in the graph below:</p>
+<center>
+<div class="figure">
+<img src="img/diagrams/squareWave.png" alt="This is called a square wave, this is what you can see when analysing digital signals on circuit boards" />
+<p class="caption">This is called a square wave, this is what you can see when analysing digital signals on circuit boards</p>
+</div>
+</center>
+<p>So let’s imagine this as electricity going over a wire. The computer can control the electricity it is sending, and it can also listen for electricity when it comes into its wires. So the graph above can be imagined as an input or as an output.</p>
+<p>When there is electricity the graph goes high (1), up to +5v of electricity, when there is no electricity the graph goes low (0) or 0v. The computer can also control how long it sends signals, so it can make complex patterns of 1’s and 0’s to make codes… a little bit like morse code.</p>
+<p>Diagram of EveBrain GPIO:</p>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="light-sensor.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="breadboard-wiring.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="circuits.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="blink-an-led.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
