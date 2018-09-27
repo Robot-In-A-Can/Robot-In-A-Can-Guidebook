@@ -85,7 +85,6 @@
 <li class="chapter" data-level="4.2" data-path="binary-inputoutput-and-computers.html"><a href="binary-inputoutput-and-computers.html"><i class="fa fa-check"></i><b>4.2</b> Binary Input/Output and Computers</a></li>
 <li class="chapter" data-level="4.3" data-path="blink-an-led.html"><a href="blink-an-led.html"><i class="fa fa-check"></i><b>4.3</b> Blink An LED</a></li>
 <li class="chapter" data-level="4.4" data-path="button-input.html"><a href="button-input.html"><i class="fa fa-check"></i><b>4.4</b> Button Input</a></li>
-<li class="chapter" data-level="4.5" data-path="gpio-the-cpu.html"><a href="gpio-the-cpu.html"><i class="fa fa-check"></i><b>4.5</b> GPIO &amp; the CPU</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="getting-fancy.html"><a href="getting-fancy.html"><i class="fa fa-check"></i><b>5</b> Getting Fancy</a><ul>
 <li class="chapter" data-level="5.1" data-path="blink-rgb.html"><a href="blink-rgb.html"><i class="fa fa-check"></i><b>5.1</b> Blink RGB</a></li>
@@ -129,25 +128,38 @@
             <section class="normal" id="section-">
 <div id="circuits" class="section level2">
 <h2><span class="header-section-number">4.1</span> Circuits</h2>
+<p>Circuits are made when electricity flows in a circle from one side of a power source through a conductive material, then back to the other side of the power source.</p>
+<p>You can think of a battery as a pump, and conductive wires are like pipes. The battery pumps electricity through the circuit.</p>
+<p><em>Warning:</em> If the electricity goes straight through the circuit from one end of the battery to the other without dissipating and going through something that uses the electricity, it will move to quickly and damage the battery and create heat. This is called a short circuit! We must avoid this!</p>
+<h3>
+Basic Circuit With A Switch And Light
+</h3>
 <div class="figure">
-<img src="img/diagrams/electronFlow.gif" alt="Circuits must be connected to both the positive and negative to allow electricity to flow" />
-<p class="caption">Circuits must be connected to both the positive and negative to allow electricity to flow</p>
+<img src="img/diagrams/electronFlow.gif" alt="Circuits must be connected to both the positive and negative to allow electricity to flow. As soon as the circuit it broken, the electricity stops flowing!" />
+<p class="caption">Circuits must be connected to both the positive and negative to allow electricity to flow. As soon as the circuit it broken, the electricity stops flowing!</p>
+</div>
+<p>Electricity flow through conductive materials, like metal. The reason electricity can flow through metal is because materials that are conductive allow electrons to pass from one atom to another.</p>
+<h3>
+Conventional Current Flow VS. Electron Flow
+</h3>
+<div class="figure">
+<img src="img/diagrams/current.gif" alt="Conventional current flow follows the wave of positive charge, and moves from positive to negative. No real movement occurs in this direction, instead this follows the atoms that are loosing electrons. Electron flow goes the other way. This follows the actual movement of electrons between atoms, this flows from negative to positive." />
+<p class="caption">Conventional current flow follows the wave of positive charge, and moves from positive to negative. No real movement occurs in this direction, instead this follows the atoms that are loosing electrons. Electron flow goes the other way. This follows the actual movement of electrons between atoms, this flows from negative to positive.</p>
+</div>
+<h3>
+Electron Movement Through Wires And Conductive Materials
+</h3>
+<div class="figure">
+<img src="img/diagrams/AtomsPassingElectrons3Pro.gif" alt="Here we can see electrons passing from atom to atom. When an atom looses an electron it becomes positively charged. This creates an imbalance and the atom tries to attract another electron to go back to it’s neutral state. You can follow the electron flow in one direction, and the positive current caused by the change in state going the opposite direction." />
+<p class="caption">Here we can see electrons passing from atom to atom. When an atom looses an electron it becomes positively charged. This creates an imbalance and the atom tries to attract another electron to go back to it’s neutral state. You can follow the electron flow in one direction, and the positive current caused by the change in state going the opposite direction.</p>
 </div>
 <div class="figure">
-<img src="img/diagrams/AtomsPassingElectrons3Pro.gif" alt="Circuits must be connected to both the positive and negative to allow electricity to flow" />
-<p class="caption">Circuits must be connected to both the positive and negative to allow electricity to flow</p>
+<img src="img/diagrams/AtomsAnimationPos.gif" alt="Here you can see a single atom and see that it becomes positively charged temporarily when it looses an electron. All of these atoms examples are simplified just for demonstration, metals have more complex atom structures than what is shown." />
+<p class="caption">Here you can see a single atom and see that it becomes positively charged temporarily when it looses an electron. All of these atoms examples are simplified just for demonstration, metals have more complex atom structures than what is shown.</p>
 </div>
 <div class="figure">
-<img src="img/diagrams/current.gif" />
-
-</div>
-<div class="figure">
-<img src="img/diagrams/AtomsAnimationPos.gif" alt="Circuits must be connected to both the positive and negative to allow electricity to flow" />
-<p class="caption">Circuits must be connected to both the positive and negative to allow electricity to flow</p>
-</div>
-<div class="figure">
-<img src="img/diagrams/AtomsAnimatedPos.gif" alt="Circuits must be connected to both the positive and negative to allow electricity to flow" />
-<p class="caption">Circuits must be connected to both the positive and negative to allow electricity to flow</p>
+<img src="img/diagrams/AtomsAnimatedPos.gif" alt="Because electricity moves at the speed of light the atoms might be said to look more like this." />
+<p class="caption">Because electricity moves at the speed of light the atoms might be said to look more like this.</p>
 </div>
 </div>
             </section>
